@@ -1,0 +1,104 @@
+body {
+    height: 100vh;
+    margin: 40px 0px 0px 0px;
+    background-image: url("360_F_461470323_6TMQSkCCs9XQoTtyer8VCsFypxwRiDGU.jpg");
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    font-family: "nunito", "poppins", sans-serif;
+}
+
+.display {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 60px;
+    color: white;
+    text-shadow: 3px 3px 0px rgba(150, 150, 150, 1);
+    padding: 10px 20px;
+    border: 4px solid white;
+    border-radius: 16px;
+}
+
+.timerDisplay {
+    margin: 5px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+button {
+    cursor: pointer;
+    height: 30px;
+    width: 80px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    background-color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    color: #000;
+    margin: 0 8px;
+    transition: all 100ms ease;
+    box-shadow: 1px 1px 0px #224f8f,
+                2px 2px 0px #224f8f,
+                3px 3px 0px #224f8f,
+                4px 4px 0px #224f8f;
+}
+
+button:hover {
+    box-shadow: none;
+    transform: translate3d(4px, 4px, 0px);
+    background-color:aliceblue;
+}
+
+h1 {
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+    border-radius: 70%;
+    border-style: dashed;
+}
+
+#lapRecord {
+    margin-top: 20px;
+}
+
+#laps {
+    background-color: transparent;
+    border-radius: 6px;
+    height: 15rem;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+    overflow-y: scroll;
+    border: 2px solid white;border-spacing: 1;
+}
+
+#laps::-webkit-scrollbar {
+    width: 10px;
+}
+
+#laps::-webkit-scrollbar-track {
+    background-color: transparent;
+    border-radius: 6px;
+}
+
+#laps::-webkit-scrollbar-thumb {
+    background-color:darkgray;
+    border-radius: 6px;
+}
+
+#laps::-webkit-scrollbar-thumb:hover {
+    background-color: grey;
+    border-radius: 6px;
+}
